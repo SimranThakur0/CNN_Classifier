@@ -17,5 +17,14 @@ class ConfigurationManager():
         config = self.config.data_ingestion
         create_directory([self.config.root_directory])
 
+        data_ingestion_config = DataIngestionConfig(
+            root_dir=Path(config.root_dir),
+            source_url=config.source_url,  # Use lowercase 'source_url'
+            local_data_file=Path(config.local_data_file),
+            unzip_dir=Path(config.unzip_dir)
+        )
+        
+        return data_ingestion_config
+
        
 

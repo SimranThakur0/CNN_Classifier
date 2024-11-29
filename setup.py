@@ -18,7 +18,7 @@ setuptools.setup(
     description='This is my CNN Classifier Project',
     long_description=long_description,
     long_description_content = "text/markdown",
-    url = f'https://github.com/{AUTHOR_NAME}/{SRC_REPO}',
+    source_url = f'https://github.com/{AUTHOR_NAME}/{SRC_REPO}',
     project_urls = {
         "Bug Tracker": f'https://github.com/{AUTHOR_NAME}/{SRC_REPO}/issues',
     },

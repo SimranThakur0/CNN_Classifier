@@ -7,14 +7,14 @@ from pathlib import Path
 from typing import Any
 from ensure import ensure_annotations
 from box.exceptions import BoxValueError
-from box import ConfigBox
+from box.box import Box as ConfigBox
 
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path):
     with open(path_to_yaml) as yaml_file:
         content  = yaml.safe_load(yaml_file)
-        return content
+        return ConfigBox(content)
 
 @ensure_annotations
 def read_json():
