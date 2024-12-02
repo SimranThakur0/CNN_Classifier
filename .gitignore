@@ -161,4 +161,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+<<<<<<< HEAD
 PetImages/
+=======
+/PetImages
+>>>>>>> 482f00b85679396862d520aa2c29fa61ade32904
