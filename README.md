@@ -1,7 +1,5 @@
 # cnn classifier project
 
-# deep Classifier project
-
 ## workflow
 
 1. Update config.yaml
