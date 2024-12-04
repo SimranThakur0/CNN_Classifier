@@ -1,4 +1,4 @@
-from deepClassifier.config import ConfigurationManager
+from deepClassifier.config.configuration import ConfigurationManager
 from deepClassifier.components import stage_02_prepare_base_model
 from deepClassifier import logger
 
