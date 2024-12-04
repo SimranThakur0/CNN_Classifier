@@ -1,7 +1,7 @@
 import tensorflow as tf
 from pathlib import Path
-from deepClassifier.entity import EvaluationConfig
-from deepClassifier.utils import save_json
+from deepClassifier.entity.config_entity import EvaluationConfig
+from deepClassifier.utils.utils import save_json
 
 class Evaluation:
     def __init__(self, config: EvaluationConfig):
@@ -17,6 +17,7 @@ class Evaluation:
         dataflow_kwargs = dict(
             target_size=self.config.params_image_size[:-1],
             batch_size=self.config.params_batch_size,
+            class_mode="categorical",
             interpolation="bilinear"
         )
 
