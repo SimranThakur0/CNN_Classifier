@@ -1,5 +1,7 @@
 from deepClassifier.config.configuration import ConfigurationManager
 from deepClassifier.components import stage_02_prepare_base_model
+from deepClassifier.components.stage_02_prepare_base_model import PrepareBaseModel
+
 from deepClassifier import logger
 
 STAGE_NAME = "Prepare base model"
