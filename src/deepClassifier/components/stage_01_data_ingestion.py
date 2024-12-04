@@ -4,7 +4,7 @@ from zipfile import ZipFile
 from deepClassifier import logger
 from pathlib import Path
 from tqdm import tqdm
-from deepClassifier.entity import DataIngestionConfig
+from deepClassifier.entity.config_entity import DataIngestionConfig
 from deepClassifier.utils import utils
 
 
