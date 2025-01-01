@@ -41,12 +41,6 @@ class DataIngestion:
 
 
         
-    '''def unzip_and_clean(self):
-        with ZipFile(file = self.config.local_data_file,mode = 'r') as zf:
-            list_of_file = zf.namelist()
-            updated_list_of_file = self.get_updated_list_of_files(list_of_file)
-            for f in tqdm(updated_list_of_file):
-                self.preprocess()'''
 
 
         
