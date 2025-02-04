@@ -1,4 +1,4 @@
-# cnn classifier project
+# cnn classifier project 
 
 ## workflow
 
