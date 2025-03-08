@@ -3,7 +3,7 @@ from pathlib import Path
 
 @dataclass(frozen = True) #frozen = true means we are creating immutable data class
 class DataIngestionConfig:
-    root_dir: Path
+    root_dir: Path 
     source_url: str
     local_data_file:Path
     unzip_dir: Path
